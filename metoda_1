@@ -1,0 +1,21 @@
+public class main{
+
+    public static int wynik(int temperatura){
+     if ( temperatura > 0){
+         System.out.println("Temperatura jest dodatnia i wynosi: " + temperatura );
+     }
+     else if (temperatura == 0){
+         System.out.println("Temperatura wynosi: " + temperatura );
+        }
+     else{
+         System.out.println("Temperatura jest ujemna i wynosi: " + temperatura);
+     }
+     return 0;
+ }
+
+    public static void main(String[] args) {
+
+     int someVariable = wynik(10);
+
+    }
+}
